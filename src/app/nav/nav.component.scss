@@ -1,0 +1,39 @@
+header {
+    background: black;
+    opacity: .5;
+
+    .container {
+        width: auto;
+    }
+
+    .logo {
+        font-family: 'Libre Barcode 128 Text', cursive;
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 5px;
+        margin-top: -1%;
+        margin-bottom: -2%;
+        text-align: left;
+    }
+
+    nav {
+        justify-self: left;
+    
+        ul {
+            list-style-type: none;
+            margin: 0; padding: 0;
+            display: flex;
+            flex-direction: row;
+
+                a {
+                    padding: 2em .5em 1em .5em;
+
+                    &:hover {
+                        background: #8E2BFF;
+                    }
+                }
+            
+        }
+    }
+}
