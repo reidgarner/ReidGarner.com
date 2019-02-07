@@ -29,7 +29,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/rellax/rellax.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -85,7 +87,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/rellax.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"

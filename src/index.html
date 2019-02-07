@@ -9,33 +9,49 @@
 </head>
 <body>
   <app-root></app-root>
-  <div class="home-container">
+  <div class="rellax home-container" data-rellax-speed="0" data-rellax-zindex="1">
     <div class="name-container">
       <h1>RG</h1>
       <div class="line"></div>
       <h2>SOFTWARE ENGINEER</h2>
     </div>
   </div>
-  <div class="parallax-1">
+  <div class="parallax-1 rellax" data-rellax-speed="0" data-rellax-zindex="-1">
     <h1>Hi, I'm Reid.</h1>
   </div>
-  <div class="about">
+  <div class="about" data-rellax-speed="0" data-rellax-zindex="1">
     <h3>I am a full stack web developer with a passion for creating beautiful applications.
         My Strengths:
-        Most Successfull Dev Project:
-        Currently: Seeking a position as a web developer here in Denver, Colorado</h3>
+        Most Successful Dev Project:
+        Currently: Seeking a position as a web developer here in Denver, Colorado
+    </h3>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Technologies</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <button>View My Resume</button>
   </div>
-  <div class="parallax-2">
+  <div class="parallax-2 rellax" data-rellax-speed="0" data-rellax-zindex="-1">
     <h1>Projects</h1>
   </div>
-  <div class="projects">
+  <div class="projects" data-rellax-speed="0" data-rellax-zindex="1">
     <h3>Projects</h3>
   </div>
-  <div class="parallax-3">
+  <div class="parallax-3 rellax" data-rellax-speed="0" data-rellax-zindex="-1">
     <h1>Contact</h1>
   </div>
-  <div class="contact">
-    <h3>Contact</h3>
+  <div class="contact" data-rellax-speed="0" data-rellax-zindex="1">
+    <h3 class="name">Name:</h3>
+    <input class="name" type="text">
+    <h3 class="email">Email:</h3>
+    <input class="email" type="email">
+    <h3>Message:</h3>
+    <textarea></textarea>
+    <button type="submit">Let's Get In Touch</button>
   </div>
 </body>
 </html>
