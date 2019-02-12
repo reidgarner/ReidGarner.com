@@ -9,6 +9,6 @@ export class AppComponent implements OnInit {
   title = 'Personal-Website';
 
   ngOnInit() {
-    var rellax = new window.Rellax('.rellax');
+    var rellax = new window.rellax('.rellax');
   }
 }
