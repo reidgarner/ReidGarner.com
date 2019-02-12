@@ -1,7 +1,7 @@
 # ReidGarner.com
 
 ## Description: 
-Portfolio Website to display my projects. 
+Portfolio Website to display myself and my projects. 
 *Still in progress - not live at the moment*
 
 ## Project Images: 
